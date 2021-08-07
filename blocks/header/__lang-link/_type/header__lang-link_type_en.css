@@ -1,0 +1,13 @@
+.header__lang-link_type_en {
+  width: 29px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.166;
+  text-align: right;
+  color: #FFFFFF;
+  grid-area: header__lang-link_type_en;
+  margin-top: 16px;
+}

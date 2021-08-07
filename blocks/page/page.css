@@ -1,0 +1,12 @@
+.page {
+  position: relative;
+  min-width: 1280px;
+  max-width: 1366px;
+  background: #2A2C2F;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
