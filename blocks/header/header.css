@@ -1,7 +1,7 @@
 .header {
-  min-width: 984px;
-  min-height: 44px;
-  margin-top: 34px;
+  width: 984px;
+  padding-top: 34px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 190px 1fr 29px 18px 27px;
   grid-template-areas:
