@@ -6,3 +6,7 @@
   line-height: 1.5;
   color: #FFFFFF;
 }
+
+.intro__list-text:only-child {
+  font-weight: normal;
+}
