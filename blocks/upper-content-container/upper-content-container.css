@@ -1,25 +1,25 @@
-.page {
-  max-width: 1184px;
-  margin: 0 auto;
+.upper-content-container {
   display: flex;
   flex-direction: column;
+  max-width: 984px;
   align-items: center;
+  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
-  .page {
-    max-width: 100%;
+  .upper-content-container {
+    width: 928px;
   }
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
-  .page {
-    max-width: 100%;
+  .upper-content-container {
+    max-width: 768px;
   }
 }
 
 @media only screen and (max-width: 767px){
-  .page {
-    max-width: 100%;
+  .upper-content-container {
+    width: 320px;
   }
 }

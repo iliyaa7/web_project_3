@@ -1,0 +1,7 @@
+.place__column-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 484px;
+  margin-left: 40px;
+}
