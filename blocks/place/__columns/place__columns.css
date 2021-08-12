@@ -1,4 +1,11 @@
 .place__columns {
-  width: 100%;
+  max-width: 100%;
   display: flex;
+}
+
+@media only screen and (max-width: 767px){
+  .place__columns {
+    flex-direction: column;
+    align-items: center;
+  }
 }

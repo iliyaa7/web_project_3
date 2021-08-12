@@ -1,5 +1,5 @@
 .intro__list-text {
-  font-family: Inter;
+  font-family: Inter, sans-serif, serif;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -11,3 +11,4 @@
 .intro__list-text:only-child {
   font-weight: normal;
 }
+

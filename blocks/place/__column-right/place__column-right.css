@@ -2,6 +2,26 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 484px;
+  max-width: 484px;
   margin-left: 40px;
+}
+
+@media only screen and (max-width: 1279px) and (min-width: 1024px){
+  .place__column-right {
+    max-width: 456px;
+  }
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  .place__column-right {
+    max-width: 352px;
+    margin-left: 28px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .place__column-right {
+    max-width: 288px;
+    margin-left: 0;
+  }
 }

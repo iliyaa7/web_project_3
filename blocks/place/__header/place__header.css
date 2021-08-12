@@ -1,4 +1,13 @@
 .place__header {
-  width: 100%;
+  max-width: 100%;
   display: flex;
+}
+
+@media only screen and (max-width: 767px){
+  .place__header {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

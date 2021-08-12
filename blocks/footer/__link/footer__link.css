@@ -1,5 +1,5 @@
 .footer__link {
-  font-family: Inter;
+  font-family: Inter, sans-serif, serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -7,4 +7,16 @@
   color: #FFFDFD;
   margin: 0;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 767px){
+  .footer__link {
+    margin: 32px 0 0;
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  .footer__link:first-of-type {
+    margin: 0;
+  }
 }

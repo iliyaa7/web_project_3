@@ -1,6 +1,6 @@
 .place__paragraph {
-  width: 100%;
-  font-family: Inter;
+  max-width: 100%;
+  font-family: Inter, serif, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -11,4 +11,19 @@
 
 .place__paragraph:first-of-type {
   margin-top: 48px;
+}
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 163%
+  }
 }
