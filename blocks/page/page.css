@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
