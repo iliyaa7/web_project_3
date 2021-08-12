@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
   .intro {
-    max-width: 720px; 
+    max-width: 720px;
     min-height: 543px;
     padding-top: 88px;
     margin: 0 auto;
