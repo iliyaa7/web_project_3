@@ -13,7 +13,7 @@
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
   .place__column-left {
-    width: 340px;
+    max-width: 340px;
   }
 }
 

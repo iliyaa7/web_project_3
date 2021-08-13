@@ -8,7 +8,7 @@
 
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
   .upper-content-container {
-    width: 928px;
+    max-width: 928px;
   }
 }
 
@@ -20,6 +20,6 @@
 
 @media only screen and (max-width: 767px){
   .upper-content-container {
-    width: 320px;
+    max-width: 320px;
   }
 }

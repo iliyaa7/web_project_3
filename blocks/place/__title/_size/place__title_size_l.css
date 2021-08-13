@@ -1,5 +1,5 @@
 .place__title_size_l {
- max-height: 152px;
+  max-height: 152px;
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 768px){
