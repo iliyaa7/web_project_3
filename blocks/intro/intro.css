@@ -1,6 +1,6 @@
 .intro {
   max-width: 690px;
-  min-height: 569px;
+  max-height: 569px;
   padding-top: 92px;
   margin: 0 auto 0 0;
 }
@@ -14,7 +14,7 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
   .intro {
     max-width: 720px;
-    min-height: 543px;
+    max-height: 543px;
     padding-top: 88px;
     margin: 0 auto;
   }
@@ -23,7 +23,7 @@
 @media only screen and (max-width: 767px){
   .intro {
     max-width: 288px;
-    min-height: 841px;
+    max-height: 841px;
     padding-top: 64px;
     margin: 0 auto;
   }

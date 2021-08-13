@@ -24,7 +24,7 @@
 @media only screen and (max-width: 767px){
   .footer {
     max-width: 165px;
-    min-height: 198px;
+    max-height: 198px;
     padding-top: 64px;
     margin: 0 139px 0 16px;
     display: flex;
