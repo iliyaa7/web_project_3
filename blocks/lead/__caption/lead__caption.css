@@ -1,6 +1,5 @@
 .lead__caption {
   max-width: 182px;
-  height: 14px;
   font-family: Inter, sans-serif, serif;
   font-style: normal;
   font-weight: normal;
@@ -10,6 +9,9 @@
   text-transform: uppercase;
   color: #FFFFFF;
   margin: 8px auto 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
 }
 
 @media only screen and (max-width: 767px){

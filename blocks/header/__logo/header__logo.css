@@ -1,12 +1,10 @@
 .header__logo {
   max-width: 190px;
-  max-height: 44px;
   grid-area: header__logo;
 }
 
 @media only screen and (max-width: 767px){
   .header__logo {
-    max-width: 156px;
-    max-height: 36px;
+    max-width: 156px;;
   }
 }

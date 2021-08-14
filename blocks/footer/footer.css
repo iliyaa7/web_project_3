@@ -4,7 +4,6 @@
   grid-template-columns: 42px 64px 69px 1fr 165px;
   column-gap: 18px;
   width: 1184px;
-  max-height: 18px;
 }
 
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
@@ -24,7 +23,6 @@
 @media only screen and (max-width: 767px){
   .footer {
     max-width: 165px;
-    min-height: 198px;
     padding-top: 64px;
     margin: 0 139px 0 16px;
     display: flex;

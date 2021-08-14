@@ -1,15 +1,1 @@
-.place__title_size_l {
-  max-height: 152px;
-}
 
-@media only screen and (max-width: 1023px) and (min-width: 768px){
-  .place__title_size_l {
-    max-height: 46px;
-  }
-}
-
-@media only screen and (max-width: 767px){
-  .place__title_size_l {
-    max-height: 46px;
-  }
-}
