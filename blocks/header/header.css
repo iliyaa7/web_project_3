@@ -2,10 +2,7 @@
   width: 984px;
   padding-top: 34px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 190px 1fr 29px 18px 27px;
-  grid-template-areas:
-  "header__logo . header__lang-link_type_en . header__lang-link_type_es";
+  display: flex;
 }
 
 @media only screen and (max-width: 1279px) and (min-width: 1024px){
@@ -23,6 +20,7 @@
 @media only screen and (max-width: 767px){
   .header {
     max-width: 288px;
+    padding-top: 20px;
     grid-template-columns: 156px 1fr 22px 18px 21px;
   }
 }

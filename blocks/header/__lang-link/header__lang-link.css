@@ -6,13 +6,15 @@
   line-height: 1.166;
   text-align: right;
   color: #FFFFFF;
-  grid-area: header__lang-link_type_en;
-  margin-top: auto;
+  margin: auto 0 0 auto;
 }
 
-.header__lang-link:nth-of-type(2) {
-  text-decoration: none;
-  grid-area: header__lang-link_type_es;
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+.header__lang-link:nth-of-type(n+2) {
+  margin-left: 18px;
 }
 
 @media only screen and (max-width: 767px){

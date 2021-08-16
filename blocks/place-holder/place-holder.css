@@ -16,11 +16,13 @@
 @media only screen and (max-width: 1023px) and (min-width: 768px){
   .place-holder {
     max-width: 720px;
+    padding-top: 88px;
   }
 }
 
 @media only screen and (max-width: 767px){
   .place-holder {
     max-width: 320px;
+    padding-top: 64px;
   }
 }

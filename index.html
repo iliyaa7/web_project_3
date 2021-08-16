@@ -11,14 +11,15 @@
 
     <header class="header">
       <img src="./images/logo.svg" alt="A photo of our logo" class="header__logo">
-      <a href="#" class="header__lang-link">En</a>
-      <a href="#" class="header__lang-link">Es</a>
+      <a href="#" class="header__lang-link header__lang-link_en">En</a>
+      <a href="#" class="header__lang-link header__lang-link_es">Es</a>
     </header>
 
+   <main class="content">
     <div class="upper-content-container">
       <section class="lead">
         <h1 class="lead__title">From Portland to Portland</h1>
-        <h2 class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</h2>
+        <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
         <img class="lead__image" src="./images/lead-mountains.jpg" alt="A picture of mountains">
         <p class="lead__caption">Your journey starts here</p>
       </section>
@@ -30,15 +31,15 @@
         Need more action and adventure in your life instead of the same old routine? From Portland, Maine to Portland, Oregon we're going to take you on an exciting journey through some unknown regions of your country. Leave the car at home and travel by bike starting in New England where it all began. You will pass through 12 beautiful states, covering a total of 3,600 miles, and accomplish 3 monumental missions. Partying and taking a selfie with a famous rock star, donating $1 to a billionaire to help eradicate polio in Africa, and even stopping by famous author Stephen King's house to say hi and asking him to sign your favorite book.
         </p>
         <ul class="intro__list">
-          <li class="intro__list-text">Distance (miles)  <span class="intro__list-text">3,644</span></li>
-          <li class="intro__list-text">Travel time (days)  <span class="intro__list-text">22</span></li>
-          <li class="intro__list-text">Highest point (feet)  <span class="intro__list-text">9,613</span></li>
-          <li class="intro__list-text">Lowest point (feet)  <span class="intro__list-text">-3</span></li>
+          <li class="intro__list-text">Distance (miles)  <span class="intro__span-accent">3,644</span></li>
+          <li class="intro__list-text">Travel time (days)  <span class="intro__span-accent">22</span></li>
+          <li class="intro__list-text">Highest point (feet)  <span class="intro__span-accent">9,613</span></li>
+          <li class="intro__list-text">Lowest point (feet)  <span class="intro__span-accent">-3</span></li>
         </ul>
       </section>
     </div>
 
-    <div class="photo-grid">
+    <section class="photo-grid">
       <img src="./images/photo-grid-highway.jpg" alt="a photo of a highway" class="photo-grid__item">
       <img src="./images/photo-grid-lake.jpg" alt="a photo of a lake" class="photo-grid__item">
       <img src="./images/photo-grid-seagulls.jpg" alt="a photo of seagulls" class="photo-grid__item">
@@ -51,21 +52,19 @@
       <img src="./images/photo-grid-oasis.jpg" alt="a photo of an oasis" class="photo-grid__item">
       <img src="./images/photo-grid-wires.jpg" alt="a photo of wires" class="photo-grid__item">
       <img src="./images/photo-grid-road.jpg" alt="a photo of a road" class="photo-grid__item">
-    </div>
+    </section>
 
     <section class="place-holder">
-      <div class="place">
+      <article class="place">
         <div class="place__header">
-          <h1 class="place__title">Maine</h1>
-          <ul class="place__website">
-            <li class="place__url-heading">URL</li>
-            <li class="place__link"><a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">global.llbean.com</a></li>
-          </ul>
+          <h2 class="place__title">Maine</h2>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
+            <p class="place__link"><a class="place__link" href="https://global.llbean.com/shop/L.L.Bean-Continental-Rucksack/122952.html?bc=50-816&csp=f&feat=816-GN1" target="_blank">global.llbean.com</a></p>
+          </div>
         </div>
         <div class="place__columns">
-          <div class="place__column-left">
-            <img src="./images/place-maine.jpg" alt="A picture of the state Maine" class="place__image">
-          </div>
+          <img src="./images/place-maine.jpg" alt="A picture of the state Maine" class="place__image">
           <div class="place__column-right">
             <p class="place__paragraph">
               Still, as sparsely populated as it was in the 1600s, this is an extraordinary and highly underrated state full of rich history and majestic natural beauty. Maine is the main state you want to be sure not to miss. As your journey is going to be a long one, you had best be prepared for an arduous trek.
@@ -78,23 +77,19 @@
             </p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <div class="place__header">
-          <h1 class="place__title">New Hampshire</h1>
-          <ul class="place__website place__website_margin_l">
-            <li class="place__url-heading">URL</li>
-            <li class="place__link"><a href="https://www.timberland.com/timberlandpro.html" class="place__link" target="_blank">timberland.com</a></li>
-          </ul>
+          <h2 class="place__title">New Hampshire</h2>
+          <div class="place__website place__website_margin_l">
+            <p class="place__url-heading">URL</p>
+            <p class="place__link"><a href="https://www.timberland.com/timberlandpro.html" class="place__link" target="_blank">timberland.com</a></p>
+          </div>
         </div>
         <div class="place__columns">
-          <div class="place__column-left">
-
-            <img src="./images/place-new-hampshire.jpg" alt="A picture of the state Maine" class="place__image">
-          </div>
+          <img src="./images/place-new-hampshire.jpg" alt="A picture of the state Maine" class="place__image">
           <div class="place__column-right">
-
             <p class="place__paragraph">
               There's no better place to lose yourself in nature than in springtime New Hampshire. As serene and beautiful as it was in the 1700s, this state is still much less traveled than its neighbors to the South. So enjoy it while it lasts.
             </p>
@@ -106,23 +101,19 @@
             </p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <div class="place__header">
-          <h1 class="place__title">New York</h1>
-          <ul class="place__website">
-            <li class="place__url-heading">URL</li>
-            <li class="place__link"><a href="https://www.ge.com/about-us" class="place__link" target="_blank">ge.com</a></li>
-          </ul>
+          <h2 class="place__title">New York</h2>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
+            <p class="place__link"><a href="https://www.ge.com/about-us" class="place__link" target="_blank">ge.com</a></p>
+          </div>
         </div>
         <div class="place__columns">
-          <div class="place__column-left">
-
-            <img src="./images/place-new-york.jpg" alt="A picture of the city New York  " class="place__image">
-          </div>
+          <img src="./images/place-new-york.jpg" alt="A picture of the city New York  " class="place__image">
           <div class="place__column-right">
-
             <p class="place__paragraph">
               Not only famous for “The Big Apple,” the state of NY also has several other reasons for going down in history. Since the late 1800s Schenectady, “The City that Lights and Hauls the World,” has been home to the world-famous General Electric Company.
             </p>
@@ -131,20 +122,18 @@
             </p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <div class="place__header">
-          <h1 class="place__title">Erie, PA</h1>
-          <ul class="place__website">
-            <li class="place__url-heading">URL</li>
-            <li class="place__link"><a href="https://www.fws.gov/refuge/erie" class="place__link" target="_blank">fws.gov</a></li>
-          </ul>
+          <h2 class="place__title">Erie, PA</h2>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
+            <p class="place__link"><a href="https://www.fws.gov/refuge/erie" class="place__link" target="_blank">fws.gov</a></p>
+          </div>
         </div>
         <div class="place__columns">
-          <div class="place__column-left">
-            <img src="./images/place-pennsylvania.jpg" alt="A photo of the town Erie" class="place__image">
-          </div>
+          <img src="./images/place-pennsylvania.jpg" alt="A photo of the town Erie" class="place__image">
           <div class="place__column-right">
             <p class="place__paragraph">
               Erie, Pennsylvania, not to be confused with the word “eerie,” although it can be from time to time, is another town worth passing through for several different reasons. While it might be most famously known as the scene of the Gettysburg address delivered by Mr. Lincoln during the Civil war, Pennsylvania also has produced a rather decent-sized Amish community (eerie, huh?)
@@ -157,20 +146,18 @@
             </p>
           </div>
         </div>
-      </div>
+      </article>
 
-      <div class="place">
+      <article class="place">
         <div class="place__header">
-          <h1 class="place__title">Ohio</h1>
-          <ul class="place__website">
-            <li class="place__url-heading">URL</li>
-            <li class="place__link"><a href="https://www.cedarpoint.com" class="place__link" target="_blank">cedarpoint.com</a></li>
-          </ul>
+          <h2 class="place__title">Ohio</h2>
+          <div class="place__website">
+            <p class="place__url-heading">URL</p>
+            <p class="place__link"><a href="https://www.cedarpoint.com" class="place__link" target="_blank">cedarpoint.com</a></p>
+          </div>
         </div>
         <div class="place__columns">
-          <div class="place__column-left">
-            <img src="./images/place-ohio.jpg" alt="a photo of the state ohio" class="place__image">
-          </div>
+          <img src="./images/place-ohio.jpg" alt="a photo of the state ohio" class="place__image">
           <div class="place__column-right">
             <p class="place__paragraph">
               From the college capital of Columbus to the clean coastline of Cleveland, Ohio is a truly hidden gem. Earthquakes are surprisingly common in this particular region of North America, over 200 of which have registered with a magnitude of 2 or higher since 1776. However, earthquakes aren't the only thing shaking this centrally located state. One of the country's largest and oldest roller coaster parks is waiting to ROCK your world in Sandusky, Ohio! This will presumably be one of the most thrilling quests you'll ever complete (provided you can stomach it). Take a much-deserved break to ride as many roller coasters as you can before continue your bike ride!
@@ -180,25 +167,26 @@
             </p>
           </div>
         </div>
-        </div>
-      </section>
-
-    <section class="cover">
-      <div class="cover__text-container">
-        <h2 class="cover__title">Historic Route 66</h2>
-        <p class="cover__subtitle">
-          The Main Street of America from Santa Monica, Cal. to Chicago, lll.
-        </p>
-      </div>
-      <img src="./images/cover-route-66.jpg" alt="Photo of the famous route 66" class="cover__image">
-      <a href="https://www.cedarpoint.com" class="cover__overlay" target="_blank"></a>
+      </article>
     </section>
 
+    <section class="cover">
+      <a href="https://www.cedarpoint.com" class="cover__link" target="_blank">
+        <h2 class="cover__title">Historic Route 66</h2>
+        <p class="cover__subtitle"> The Main Street of America from Santa Monica, Cal. to Chicago, lll.</p>
+      </a>
+      <div class="cover__overlay"></div>
+    </section>
+   </main>
+
     <footer class="footer">
-      <a href="https://yandex.com/maps" class="footer__link" target="_blank">Maps</a>
-      <a href="https://yandex.com/weather/moscow" class="footer__link" target="_blank">Weather</a>
-      <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Calendar</a>
+      <nav class="footer__nav">
+        <a href="https://yandex.com/maps" class="footer__link" target="_blank">Maps</a>
+        <a href="https://yandex.com/weather/moscow" class="footer__link" target="_blank">Weather</a>
+        <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Calendar</a>
+      </nav>
       <p class="footer__copyright">© 2021. Iliya Gomon</p>
+
     </footer>
   </div>
 </body>
