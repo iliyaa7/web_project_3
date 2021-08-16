@@ -6,3 +6,5 @@ In this project I built a responsive web page according to a layout/spec in the 
 I used media query, responsive tools like width values in pracentage and more, hover, nth of type pasudo class, positioning, flex  and grid display, and BEM orgonaizing system.
 
 In the near future I am planning to improve the responsivity of the project and make some smooth transitions.
+
+git hub pages link - https://iliyaa7.github.io/web_project_3/
